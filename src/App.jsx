@@ -4,10 +4,10 @@ export const App = () => {
   const [sent, setSent] = useState(false);
 
   return sent ? (
-    <h1 className="mt-8 text-lg text-center">Form was sent!</h1>
+    <h1 className="mt-8 text-lg text-center text-blue-500">Form was sent!</h1>
   ) : (
     <>
-      <h1 className="mt-8 text-lg text-center">Sample form</h1>
+      <h1 className="mt-8 text-lg text-center text-blue-500">Sample form</h1>
       <section>
         <form
           className="w-full py-8 px-10 bg-gray-800 rounded-xl"
