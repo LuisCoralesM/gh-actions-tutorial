@@ -27,7 +27,7 @@ export const App = () => {
             <input type="text" name="id-document" placeholder="1234" />
 
             <div className="flex justify-between gap-x-10">
-              <div className="flex flex-col w-full">
+              <div className="flex flex-col w-24">
                 <label>Age</label>
                 <input type="number" name="age" />
               </div>
