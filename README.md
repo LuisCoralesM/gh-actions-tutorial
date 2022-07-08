@@ -29,9 +29,9 @@ This command will generate some authentication data, you will need to copy the `
 
 Now that you already have your app token, go to your GitHub Repository > Settings > Secrets > Actions. Here you will add 3 secrets with the corresponding values:
 
-- HEROKU-API-KEY = <app-token>
-- HEROKU-APP     = <your-app-name>
-- HEROKU-EMAIL   = <your-email>
+- HEROKU-API-KEY = `<app-token>`
+- HEROKU-APP     = `<your-app-name>`
+- HEROKU-EMAIL   = `<your-email>`
 
 ## Setup your Actions
 
