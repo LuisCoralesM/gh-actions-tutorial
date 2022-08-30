@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const App = () => {
-  const [sent, setSent] = useState(false);
+   const [sent, setSent] = useState(false);
 
   return sent ? (
     <h1 className="mt-8 text-lg text-center text-blue-500">Form was sent!</h1>
