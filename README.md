@@ -11,25 +11,25 @@ Check the deployed example [here!](https://form-lc.herokuapp.com/)
 
 ## Steps
 
-First, make sure you are logged in Git.
+1. First, make sure you are logged in Git.
 
-Also, create an account in [Heroku](https://www.heroku.com) and create an app (this will indicate the URL for your Node.js app when its deployed).
+2. Also, create an account in [Heroku](https://www.heroku.com) and create an app (this will indicate the URL for your Node.js app when its deployed).
 
-After that, use a terminal on your machine to run the following command: 
+3. After that, use a terminal on your machine to run the following command: 
 
-```
-heroku login
-```
+	```
+	heroku login
+	```
 
-Once you've logged in, you will need to create token to access your account and your app by SSH. Run the following command:
+4. Once you've logged in, you will need to create token to access your account and your app by SSH. Run the following command:
 
-```
-heroku authorizations:create <app-name>
-```
+	```
+	heroku authorizations:create <app-name>
+	```
 
-This command will generate some authentication data, you will need to copy the `token` data and save it for further actions.
+	This command will generate some authentication data, you will need to copy the `token` data and save it for further actions.
 
-Now that you already have your app token, go to your GitHub Repository > Settings > Secrets > Actions. Here you will add 3 secrets with the corresponding values:
+5. Now that you already have your app token, go to your GitHub Repository > Settings > Secrets > Actions. Here you will add 3 secrets with the corresponding values:
 
 - HEROKU-API-KEY = `<app-token>`
 - HEROKU-APP     = `<your-app-name>`
@@ -44,3 +44,4 @@ Either way, you can follow the example written in this tutorial and adapt it to 
 ## Recommended videos
   
 - [GitHub Actions by midudev](https://youtu.be/sIhm4YOMK6Q)
+
